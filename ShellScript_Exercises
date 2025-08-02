@@ -14,6 +14,8 @@ if [$num -gt 100]
 then
 echo "That's a big number!"
 fi
+What is the mistake?
+How will you correct it?
 
 Spot it -2:
 What's wrong with the following snippet of bash code?
@@ -23,8 +25,20 @@ if [ $num -gt 100 ]
 then
 echo "That's a big number!"
 fi
+What is the mistake?
+How will you correct it?
 
+Spot it -3: 
 
+What's wrong with the following snippet of bash code?
+#!/usr/bin/bash
+for i  1 2 3
+do
+  echo "Number: $i"
+done
+
+What is the mistake?
+How will you correct it?
 
 Readings: 
 https://bkeerthanamanipal.blogspot.com/2025/08/passing-values-into-shell-scripts.html
