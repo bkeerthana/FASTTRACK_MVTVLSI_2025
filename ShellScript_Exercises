@@ -1,0 +1,9 @@
+Write a simple shell script that says Namsakara Prithivi!
+              Hint: echo 
+Write a shell script to get the tool name from the user and check the package is installed or not 
+              Hint: command , read 
+Write a shell script to get the tool name from the command line arguments and check the package is installed or not 
+              Hint: command , command line arguments 
+
+Readings: 
+https://bkeerthanamanipal.blogspot.com/2025/08/passing-values-into-shell-scripts.html
