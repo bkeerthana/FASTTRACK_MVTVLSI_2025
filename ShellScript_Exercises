@@ -6,6 +6,17 @@ Write a shell script to get the tool name from the command line arguments and ch
               Hint: command, command line arguments , conditional statements 
 Write a shell script to get the numeric value from the user and check the value is positive or negative 
               Hint: read, conditional statements 
+Read in two numbers from the keyboard and display their product. 
+              Hint: read, echo and let commands in man.
+Write a shell script that does not care how many parameters it gets. It should just print the number of parameters you entered and exit. 
+              Hint: ./myscript a b c, it should print : you entered 3 parameters.
+Write a shell script that takes in a parameter of a command name. It should then tell you how many times you used that command in your history log.
+              Hint: history, grep, wc
+              Because history is not available when you launch a new script from your shell, you have to run this script with : source ./your script name
+Write a shell script that takes in 2 parameters, and expects both to be file names. The script should tell you how many lines are in each file. 
+Then, it should add both those numbers together and display the total number of lines in both files together.
+              Hint: wc, and you need to know how to put the return value of a command into a variable.
+
 Spot it -1: 
 What's wrong with the following snippet of bash code?
 #!/usr/bin/bash
