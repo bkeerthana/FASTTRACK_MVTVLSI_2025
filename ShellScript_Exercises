@@ -1,9 +1,30 @@
 Write a simple shell script that says Namsakara Prithivi!
               Hint: echo 
 Write a shell script to get the tool name from the user and check the package is installed or not 
-              Hint: command , read 
+              Hint: command , read , conditional statments 
 Write a shell script to get the tool name from the command line arguments and check the package is installed or not 
-              Hint: command , command line arguments 
+              Hint: command, command line arguments , conditional statements 
+Write a shell script to get the numeric value from the user and check the value is positive or negative 
+              Hint: read, conditional statements 
+Spot it -1: 
+What's wrong with the following snippet of bash code?
+#!/usr/bin/bash
+num=101
+if [$num -gt 100]
+then
+echo "That's a big number!"
+fi
+
+Spot it -2:
+What's wrong with the following snippet of bash code?
+#!/usr/bin/bash
+num=101
+if [ $num -gt 100 ]
+then
+echo "That's a big number!"
+fi
+
+
 
 Readings: 
 https://bkeerthanamanipal.blogspot.com/2025/08/passing-values-into-shell-scripts.html
